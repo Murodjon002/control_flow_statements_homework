@@ -28,8 +28,8 @@ def main(a,b,c):
     elif c<0:
         negative+=1
     if positive>negative:
-        return "there are a lot of positive numbers",positive,negative
+        return "there are a lot of positive numbers"
     else:
-        "there are a lot of negative numbers",positive,negative
+        "there are a lot of negative numbers"
 
     
