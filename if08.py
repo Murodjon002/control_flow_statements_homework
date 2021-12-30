@@ -11,13 +11,13 @@ def main(a):
     Returns:
         string: the message to print
     """
-    if a//10>=1 and a//10<=9 and a%2==0:
+    if a//10>=1 and a//10<=9 and a%2==1:
         return "two-digit odd number"
-    elif a//10>=1 and a//10<=9 and a%2==1:
+    elif a//10>=1 and a//10<=9 and a%2==0:
         return "two-digit even number"
-    elif a//100>=1 and a//100<=9 and a%2==0:
-        return "three-digit odd number"
     elif a//100>=1 and a//100<=9 and a%2==1:
+        return "three-digit odd number"
+    elif a//100>=1 and a//100<=9 and a%2==0:
         return "three-digit even number"
     
     
