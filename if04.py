@@ -8,9 +8,11 @@ def main(a,b,c):
     returns:
         integer: the number of positive numbers in the given numbers
     """
+    son=0
     if a>0:
-        return a
+        son+=1
     if b>0:
-        return b
+        son+=1
     if c>0:
-        return c
+        son+=1
+    return son
