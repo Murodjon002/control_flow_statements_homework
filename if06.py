@@ -29,7 +29,7 @@ def main(a,b,c):
         negative+=1
     if positive>negative:
         return "there are a lot of positive numbers"
-    else:
+    if positive<negative:
         "there are a lot of negative numbers"
 
     
